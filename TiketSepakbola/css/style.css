@@ -4,6 +4,14 @@
 	height: 600px;
 
 }
+.full {
+  background: url(../img/Stadium.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
 nav{
 	position: absolute;
 }
@@ -12,5 +20,5 @@ nav{
 }
 
 nav:hover{
-	background-color: yellow;
+	background-color: grey;
 }
